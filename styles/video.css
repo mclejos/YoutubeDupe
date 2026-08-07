@@ -59,3 +59,51 @@
         right: 5px;
       }
     
+      .profile-pop-container {
+        display: inline-block;
+        position: relative;
+      }
+
+      .channel-tooltip {
+        position: absolute;
+        top: 50px;
+        left: 0;
+        width: 200px;
+        padding: 12px;
+        background-color: white;
+        border-radius: 6px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+        display: flex;
+        align-items: center;
+        z-index: 300;
+
+        /* Hide by default */
+        opacity: 0;
+        pointer-events: none;
+        transition: opacity 0.15s;
+      }
+
+      /* Reveal tooltip on hover */
+      .profile-pop-container:hover .channel-tooltip {
+        opacity: 1;
+      }
+
+      .channel-tooltip-picture {
+        width: 50px;
+        height: 50px;
+        border-radius: 25px;
+        margin-right: 10px;
+      }
+
+      .channel-tooltip-name {
+        font-weight: bold;
+        font-size: 14px;
+        margin-bottom: 2px;
+      }
+
+      .channel-tooltip-stats {
+        color: rgb(90, 90, 90);
+        font-size: 12px;
+      }
+
+            
