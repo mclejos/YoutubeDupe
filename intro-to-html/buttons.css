@@ -1,0 +1,79 @@
+
+    .avail {
+        font-weight: bold;
+        color: rgb(59, 2, 138);
+        cursor: pointer;
+    }
+
+    .avail:hover {
+        font-weight: bold;
+        color: rgb(220, 15, 15);
+    }
+
+    .link{
+        color: blueviolet;
+    }
+
+    .link:hover{
+        color:brown;
+        font-weight: bolder;
+    }
+
+    .join{
+        background-color: rgb(241, 205, 96);
+        color:rgb(0, 0, 0);
+        border: none;
+        border-radius: 20px;
+        font-size: 15px;
+        cursor: pointer;
+        margin-left: 8px;
+        margin-right: 8px;
+        transition: opacity 0.15s,
+        box-shadow 0.15s;
+        padding-left: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 10px;
+        vertical-align: top;
+    }
+
+    .join:hover{
+        opacity: 0.8;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.6);
+    }
+
+    .join:active{
+        opacity: 0.6;
+    }
+
+    .twt:hover{
+        background-color: rgb(0, 0, 0) ;
+        color: rgb(230, 150, 22);
+    }
+
+    .twt:active{
+        opacity: 0.6;
+    }
+
+    .twt{
+        background-color: rgb(230, 150, 22);
+        color:rgb(0, 0, 0);
+        border: none;
+        border-radius: 20px;
+        font-size: 15px;
+        cursor: pointer;
+        margin-left: 8px;
+        padding-left: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 10px;
+        transition: background-color 0.35s,
+            color 0.35s;
+        vertical-align: top;
+
+    }
+
+    .Header{
+        font-size: 40px;
+        font-weight: bold;
+    }
